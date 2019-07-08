@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiCalculaJuros.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:ApiCalculaJuros.WebApi.Controllers.BaseController.BadRequest(FluentValidation.Results.ValidationResult)">
+            <summary>
+            Retorna "status code" 400 com a lista de erros de validação
+            </summary>
+            <param name="validation"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiCalculaJuros.WebApi.Controllers.CalculadoraController.Get(ApiCalculaJuros.Domain.Interfaces.IFinanciamentoServices,ApiCalculaJuros.Domain.Validations.FinanciamentoValidations,System.Double,System.Int32)">
+             <summary>
+             Retorna o valor final do financiamento
+             </summary>
+             <remarks>
+             Requisição:
+            
+                 GET /calculajuros
+                 {
+                    "valorFinal": 105,10
+                 }
+                 
+             </remarks>
+             <param name="item"></param>
+             <returns></returns>
+        </member>
+        <member name="M:ApiCalculaJuros.WebApi.Controllers.ShowmethecodeController.Get">
+             <summary>
+             Retornar a url de onde encontra-se o fonte no github
+             </summary>
+             <remarks>
+             Requisição:
+            
+                 GET /showmethecode
+                 {
+                    "https://github.com/estevaobraga"
+                 }
+                 
+             </remarks>
+             <param name="item"></param>
+             <returns></returns>
+        </member>
+    </members>
+</doc>

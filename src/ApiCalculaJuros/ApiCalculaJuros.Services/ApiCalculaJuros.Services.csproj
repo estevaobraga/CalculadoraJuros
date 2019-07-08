@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiCalculaJuros.CrossCutting.Operations\ApiCalculaJuros.CrossCutting.Operations.csproj" />
+    <ProjectReference Include="..\ApiCalculaJuros.Domain\ApiCalculaJuros.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

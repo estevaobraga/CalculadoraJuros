@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCalculaJuros.WebApi", "ApiCalculaJuros.WebApi\ApiCalculaJuros.WebApi.csproj", "{95CABAF1-CD83-43D2-B573-97FC1A5849FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCalculaJuros.Domain", "ApiCalculaJuros.Domain\ApiCalculaJuros.Domain.csproj", "{A269DD7B-5553-4510-812E-8EFCCA276937}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCalculaJuros.Services", "ApiCalculaJuros.Services\ApiCalculaJuros.Services.csproj", "{1F6DD0C0-59F8-4039-8088-72348F2D1B56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCalculaJuros.CrossCutting.IoC", "ApiCalculaJuros.CrossCutting.IoC\ApiCalculaJuros.CrossCutting.IoC.csproj", "{8BDEB1D0-4937-4419-A50A-C94EDA3A7378}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCalculaJuros.CrossCutting.Operations", "ApiCalculaJuros.CrossCutting.Operations\ApiCalculaJuros.CrossCutting.Operations.csproj", "{CEE0DF0E-5603-4EF1-A4ED-19D0ADFC561E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{70F236A1-A2DD-4D5F-8971-5B178EA31D3F}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95CABAF1-CD83-43D2-B573-97FC1A5849FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95CABAF1-CD83-43D2-B573-97FC1A5849FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95CABAF1-CD83-43D2-B573-97FC1A5849FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95CABAF1-CD83-43D2-B573-97FC1A5849FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A269DD7B-5553-4510-812E-8EFCCA276937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A269DD7B-5553-4510-812E-8EFCCA276937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A269DD7B-5553-4510-812E-8EFCCA276937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A269DD7B-5553-4510-812E-8EFCCA276937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F6DD0C0-59F8-4039-8088-72348F2D1B56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F6DD0C0-59F8-4039-8088-72348F2D1B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F6DD0C0-59F8-4039-8088-72348F2D1B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F6DD0C0-59F8-4039-8088-72348F2D1B56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BDEB1D0-4937-4419-A50A-C94EDA3A7378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BDEB1D0-4937-4419-A50A-C94EDA3A7378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BDEB1D0-4937-4419-A50A-C94EDA3A7378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BDEB1D0-4937-4419-A50A-C94EDA3A7378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEE0DF0E-5603-4EF1-A4ED-19D0ADFC561E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE0DF0E-5603-4EF1-A4ED-19D0ADFC561E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE0DF0E-5603-4EF1-A4ED-19D0ADFC561E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE0DF0E-5603-4EF1-A4ED-19D0ADFC561E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCBC8339-1C75-41E4-93CB-4F5268C0A761}
+	EndGlobalSection
+EndGlobal
