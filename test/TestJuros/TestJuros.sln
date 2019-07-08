@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculaJurosTests", "CalculaJurosTests\CalculaJurosTests.csproj", "{4CE2C76E-6FF2-4D58-B11E-DABBB88B9F77}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCalculaJuros.Domain", "..\..\src\ApiCalculaJuros\ApiCalculaJuros.Domain\ApiCalculaJuros.Domain.csproj", "{54F3BBCE-B91F-42B9-96D3-6054CED4AE18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CE2C76E-6FF2-4D58-B11E-DABBB88B9F77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE2C76E-6FF2-4D58-B11E-DABBB88B9F77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE2C76E-6FF2-4D58-B11E-DABBB88B9F77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE2C76E-6FF2-4D58-B11E-DABBB88B9F77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54F3BBCE-B91F-42B9-96D3-6054CED4AE18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F3BBCE-B91F-42B9-96D3-6054CED4AE18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F3BBCE-B91F-42B9-96D3-6054CED4AE18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F3BBCE-B91F-42B9-96D3-6054CED4AE18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C625EA5-22DF-4047-B4E5-6391BA4A2F0A}
+	EndGlobalSection
+EndGlobal
