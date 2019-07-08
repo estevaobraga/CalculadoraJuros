@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiTaxaJuros.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:ApiTaxaJuros.WebApi.Controllers.TaxaJurosController.Get(ApiTaxaJuros.Domain.Interfaces.ITaxaJurosRepositorio)">
+             <summary>
+             Retorna a taxa de juros
+             </summary>
+             <remarks>
+             Requisição:
+            
+                 GET /taxaJuros
+                 {
+                    "taxa": 0.01,
+                 }
+                 
+             </remarks>
+             <param name="item"></param>
+             <returns></returns>
+        </member>
+    </members>
+</doc>

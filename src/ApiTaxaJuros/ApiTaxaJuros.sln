@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTaxaJuros.WebApi", "ApiTaxaJuros.WebApi\ApiTaxaJuros.WebApi.csproj", "{99041EDB-974B-4952-9567-0FF379539F45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTaxaJuros.Domain", "ApiTaxaJuros.Domain\ApiTaxaJuros.Domain.csproj", "{6166DB37-6038-414A-94C4-19CAC645989D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTaxaJuros.CrossCutting.IoC", "ApiTaxaJuros.CrossCutting.IoC\ApiTaxaJuros.CrossCutting.IoC.csproj", "{2063E025-07B9-45B4-946B-6C19E94561F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTaxaJuros.Data", "ApiTaxaJuros.Data\ApiTaxaJuros.Data.csproj", "{F15D410F-BBA9-4679-AE85-2D8CB900064D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FF50BCEE-E3F3-4B82-BC85-0790654DAB4F}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99041EDB-974B-4952-9567-0FF379539F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99041EDB-974B-4952-9567-0FF379539F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99041EDB-974B-4952-9567-0FF379539F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99041EDB-974B-4952-9567-0FF379539F45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6166DB37-6038-414A-94C4-19CAC645989D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6166DB37-6038-414A-94C4-19CAC645989D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6166DB37-6038-414A-94C4-19CAC645989D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6166DB37-6038-414A-94C4-19CAC645989D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2063E025-07B9-45B4-946B-6C19E94561F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2063E025-07B9-45B4-946B-6C19E94561F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2063E025-07B9-45B4-946B-6C19E94561F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2063E025-07B9-45B4-946B-6C19E94561F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F15D410F-BBA9-4679-AE85-2D8CB900064D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F15D410F-BBA9-4679-AE85-2D8CB900064D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F15D410F-BBA9-4679-AE85-2D8CB900064D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F15D410F-BBA9-4679-AE85-2D8CB900064D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B64801FE-C17A-46FB-920D-0EE07D943487}
+	EndGlobalSection
+EndGlobal
