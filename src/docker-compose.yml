@@ -1,0 +1,19 @@
+version: "3"
+services:
+  apicalculajuros:
+    build:
+      context: ./ApiCalculaJuros
+    container_name: apicalculajuros
+    ports:
+      - "8081:80"
+    links:
+      - "apitaxajuros"
+    depends_on: 
+      - apitaxajuros
+  apitaxajuros:
+    build:
+      context: ./ApiTaxaJuros
+    container_name: apitaxajuros
+    restart: "always"
+    ports:
+      - "8080:80"
